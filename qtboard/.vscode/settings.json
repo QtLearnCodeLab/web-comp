@@ -1,6 +1,6 @@
 {
   "html.experimental.customData": [
-    "https://github.com/QtLearnCodeLab/qtwc/blob/master/html.html-data.json"
+    "./html.html-data.json"
   ],
   "html.autoClosingTags": true,
   "html.suggest.html5": true,
