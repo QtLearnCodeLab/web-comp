@@ -1,8 +1,0 @@
-{
-  "html.experimental.customData": [
-    "./html.html-data.json"
-  ],
-  "html.autoClosingTags": true,
-  "html.suggest.html5": true,
-  "javascript.suggestionActions.enabled": true
-}
