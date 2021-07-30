@@ -1,0 +1,443 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "qt-board",
+      "description": "Board web component - You should use the element as: \n `<qt-board id='board1' board-name='veda1' board-type='VEDA' com-port='COM6'></qt-board>` . ",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "board-name",
+          "description": "Name of the board you are using",
+          "values": [{ "board-name": "veda1" }]
+        },
+        {
+          "name": "board-type",
+          "description": "VEDA or RIO",
+          "values": [{ "board-type": ["VEDA", "RIO"] }]
+        }
+      ]
+    },
+    {
+      "name": "qt-led",
+      "description": "LED web component - You should the element as: \n <qt-led id='led1' ccs='true' board-type='veda' board-name='veda1'></qt-led>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "port",
+          "description": "Port number to which LED is connected on board",
+          "values": [{ "port": "1" }]
+        },
+        {
+          "name": "board-name",
+          "description": "Same as connected board",
+          "values": [{ "board-name": "veda1" }]
+        },
+        {
+          "name": "ccs",
+          "description": "Visibility of Control Config Simulation",
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
+        },
+        {
+          "name": "state",
+          "description": "State of component",
+          "values": [{ "state": "on" }, { "state": "off" }]
+        }
+      ]
+    },
+    {
+      "name": "qt-motor",
+      "description": "Motor web component - You should the element as: \n <qt-motor id='motor1' ccs='true' board-type='veda' board-name='veda1'></qt-motor>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "port",
+          "description": "Port number to which LED is connected on board",
+          "values": [{ "port": "1" }]
+        },
+        {
+          "name": "board-name",
+          "description": "Same as connected board",
+          "values": [{ "board-name": "veda1" }]
+        },
+        {
+          "name": "ccs",
+          "description": "Visibility of Control Config Simulation",
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
+        },
+        {
+          "name": "state",
+          "description": "State of component",
+          "values": [{ "state": "on" }, { "state": "off" }]
+        }
+      ]
+    },
+    {
+      "name": "qt-temperature",
+      "description": "Temperature web component - You should the element as: \n <qt-temperature id='temp1' ccs='true' board-type='veda' board-name='veda1'></qt-temperature>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "port",
+          "description": "Port number to which LED is connected on board",
+          "values": [{ "port": "1" }]
+        },
+        {
+          "name": "board-name",
+          "description": "Same as connected board",
+          "values": [{ "board-name": "veda1" }]
+        },
+        {
+          "name": "ccs",
+          "description": "Visibility of Control Config Simulation",
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
+        },
+        {
+          "name": "state",
+          "description": "State of component",
+          "values": [{ "state": "on" }, { "state": "off" }]
+        }
+      ]
+    },
+    {
+      "name": "qt-argb",
+      "description": "ARGB web component - You should the element as: \n <qt-argb id='argb1' ccs='true' board-type='veda' board-name='veda1'></qt-argb>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "port",
+          "description": "Port number to which LED is connected on board",
+          "values": [{ "port": "1" }]
+        },
+        {
+          "name": "board-name",
+          "description": "Same as connected board",
+          "values": [{ "board-name": "veda1" }]
+        },
+        {
+          "name": "ccs",
+          "description": "Visibility of Control Config Simulation",
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
+        },
+        {
+          "name": "state",
+          "description": "State of component",
+          "values": [{ "state": "on" }, { "state": "off" }]
+        }
+      ]
+    },
+    {
+      "name": "qt-ldr",
+      "description": "LDR web component - You should the element as: \n <qt-ldr id='ldr1' ccs='true' board-type='veda' board-name='veda1'></qt-ldr>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "port",
+          "description": "Port number to which LED is connected on board",
+          "values": [{ "port": "1" }]
+        },
+        {
+          "name": "board-name",
+          "description": "Same as connected board",
+          "values": [{ "board-name": "veda1" }]
+        },
+        {
+          "name": "ccs",
+          "description": "Visibility of Control Config Simulation",
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
+        },
+        {
+          "name": "state",
+          "description": "State of component",
+          "values": [{ "state": "on" }, { "state": "off" }]
+        }
+      ]
+    },
+    {
+      "name": "qt-ir",
+      "description": "IR sensor web component - You should the element as: \n <qt-ir id='ir1' ccs='true' board-type='veda' board-name='veda1'></qt-ir>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "port",
+          "description": "Port number to which LED is connected on board",
+          "values": [{ "port": "1" }]
+        },
+        {
+          "name": "board-name",
+          "description": "Same as connected board",
+          "values": [{ "board-name": "veda1" }]
+        },
+        {
+          "name": "ccs",
+          "description": "Visibility of Control Config Simulation",
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
+        },
+        {
+          "name": "state",
+          "description": "State of component",
+          "values": [{ "state": "on" }, { "state": "off" }]
+        }
+      ]
+    },
+    {
+      "name": "qt-gas",
+      "description": "Gas web component - You should the element as: \n <qt-gas id='gas1' ccs='true' board-type='veda' board-name='veda1'></qt-gas>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "port",
+          "description": "Port number to which LED is connected on board",
+          "values": [{ "port": "1" }]
+        },
+        {
+          "name": "board-name",
+          "description": "Same as connected board",
+          "values": [{ "board-name": "veda1" }]
+        },
+        {
+          "name": "ccs",
+          "description": "Visibility of Control Config Simulation",
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
+        },
+        {
+          "name": "state",
+          "description": "State of component",
+          "values": [{ "state": "on" }, { "state": "off" }]
+        }
+      ]
+    },
+    {
+      "name": "qt-ultrasonic",
+      "description": "Ultrasonic web component - You should the element as: \n <qt-ultrasonic id='us1' ccs='true' board-type='veda' board-name='veda1'></qt-ultrasonic>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "port",
+          "description": "Port number to which LED is connected on board",
+          "values": [{ "port": "1" }]
+        },
+        {
+          "name": "board-name",
+          "description": "Same as connected board",
+          "values": [{ "board-name": "veda1" }]
+        },
+        {
+          "name": "ccs",
+          "description": "Visibility of Control Config Simulation",
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
+        },
+        {
+          "name": "state",
+          "description": "State of component",
+          "values": [{ "state": "on" }, { "state": "off" }]
+        }
+      ]
+    },
+    {
+      "name": "qt-servo",
+      "description": "Servo web component - You should the element as: \n <qt-servo id='servo1' ccs='true' board-type='veda' board-name='veda1'></qt-servo>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "port",
+          "description": "Port number to which LED is connected on board",
+          "values": [{ "port": "1" }]
+        },
+        {
+          "name": "board-name",
+          "description": "Same as connected board",
+          "values": [{ "board-name": "veda1" }]
+        },
+        {
+          "name": "ccs",
+          "description": "Visibility of Control Config Simulation",
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
+        },
+        {
+          "name": "state",
+          "description": "State of component",
+          "values": [{ "state": "on" }, { "state": "off" }]
+        }
+      ]
+    },
+    {
+      "name": "qt-apds",
+      "description": "APDS web component - You should the element as: \n <qt-apds id='apds1' ccs='true' board-type='veda' board-name='veda1'></qt-apds>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "port",
+          "description": "Port number to which LED is connected on board",
+          "values": [{ "port": "1" }]
+        },
+        {
+          "name": "board-name",
+          "description": "Same as connected board",
+          "values": [{ "board-name": "veda1" }]
+        },
+        {
+          "name": "ccs",
+          "description": "Visibility of Control Config Simulation",
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
+        },
+        {
+          "name": "state",
+          "description": "State of component",
+          "values": [{ "state": "on" }, { "state": "off" }]
+        }
+      ]
+    },
+    {
+      "name": "qt-limitswitch",
+      "description": "Limit switch web component - You should the element as: \n <qt-limitswitch id='ls1' ccs='true' board-type='veda' board-name='veda1'></qt-limitswitch>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "port",
+          "description": "Port number to which LED is connected on board",
+          "values": [{ "port": "1" }]
+        },
+        {
+          "name": "board-name",
+          "description": "Same as connected board",
+          "values": [{ "board-name": "veda1" }]
+        },
+        {
+          "name": "ccs",
+          "description": "Visibility of Control Config Simulation",
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
+        },
+        {
+          "name": "state",
+          "description": "State of component",
+          "values": [{ "state": "on" }, { "state": "off" }]
+        }
+      ]
+    },
+    {
+      "name": "qt-mpu",
+      "description": "MPU web component - You should the element as: \n <qt-mpu id='mpu1' ccs='true' board-type='veda' board-name='veda1'></qt-mpu>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "port",
+          "description": "Port number to which LED is connected on board",
+          "values": [{ "port": "1" }]
+        },
+        {
+          "name": "board-name",
+          "description": "Same as connected board",
+          "values": [{ "board-name": "veda1" }]
+        },
+        {
+          "name": "ccs",
+          "description": "Visibility of Control Config Simulation",
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
+        },
+        {
+          "name": "state",
+          "description": "State of component",
+          "values": [{ "state": "on" }, { "state": "off" }]
+        }
+      ]
+    },
+    {
+      "name": "qt-buzzer",
+      "description": "Buzzer web component - You should the element as: \n <qt-buzzer id='buzz1' ccs='true' board-type='veda' board-name='veda1'></qt-buzzer>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "port",
+          "description": "Port number to which LED is connected on board",
+          "values": [{ "port": "1" }]
+        },
+        {
+          "name": "board-name",
+          "description": "Same as connected board",
+          "values": [{ "board-name": "veda1" }]
+        },
+        {
+          "name": "ccs",
+          "description": "Visibility of Control Config Simulation",
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
+        },
+        {
+          "name": "state",
+          "description": "State of component",
+          "values": [{ "state": "on" }, { "state": "off" }]
+        }
+      ]
+    }
+  ]
+}
