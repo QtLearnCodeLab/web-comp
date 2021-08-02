@@ -6,23 +6,20 @@
       "description": "Board web component - You should use the element as: \n `<qt-board id='board1' board-name='veda1' board-type='VEDA' com-port='COM6'></qt-board>` . ",
       "references": [
         {
-          "name": "Qt-WebComponents",
-          "url": "https://qtlearn.in/"
+          "name": "Qt Web Components",
+          "url": "https://qtpi.in/"
         }
       ],
       "attributes": [
         {
           "name": "board-name",
           "description": "Name of the board you are using",
-          "values": [{ "name": "veda1" }]
+          "values": [{ "board-name": "veda1" }]
         },
         {
           "name": "board-type",
-          "description": "Board Type you are using. Either VEDA or RIO",
-          "values": [
-            { "name": "VEDA", "description": "VEDA Board" },
-            { "name": "RIO", "description": "RIO Board" }
-          ]
+          "description": "VEDA or RIO",
+          "values": [{ "board-type": ["VEDA", "RIO"] }]
         }
       ]
     },
@@ -39,22 +36,22 @@
         {
           "name": "port",
           "description": "Port number to which LED is connected on board",
-          "values": [{ "name": "1" }]
+          "values": [{ "port": "1" }]
         },
         {
           "name": "board-name",
           "description": "Same as connected board",
-          "values": [{ "name": "veda1" }]
+          "values": [{ "board-name": "veda1" }]
         },
         {
           "name": "ccs",
           "description": "Visibility of Control Config Simulation",
-          "values": [{ "name": "true" }, { "name": "false" }]
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
         },
         {
           "name": "state",
           "description": "State of component",
-          "values": [{ "name": "on" }, { "name": "off" }]
+          "values": [{ "state": "on" }, { "state": "off" }]
         }
       ]
     },
@@ -76,17 +73,17 @@
         {
           "name": "board-name",
           "description": "Same as connected board",
-          "values": [{ "name": "veda1" }]
+          "values": [{ "board-name": "veda1" }]
         },
         {
           "name": "ccs",
           "description": "Visibility of Control Config Simulation",
-          "values": [{ "name": "true" }, { "name": "false" }]
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
         },
         {
           "name": "state",
           "description": "State of component",
-          "values": [{ "name": "on" }, { "name": "off" }]
+          "values": [{ "state": "on" }, { "state": "off" }]
         }
       ]
     },
@@ -103,22 +100,22 @@
         {
           "name": "port",
           "description": "Port number to which LED is connected on board",
-          "values": [{ "name": "1" }]
+          "values": [{ "port": "1" }]
         },
         {
           "name": "board-name",
           "description": "Same as connected board",
-          "values": [{ "name": "veda1" }]
+          "values": [{ "board-name": "veda1" }]
         },
         {
           "name": "ccs",
           "description": "Visibility of Control Config Simulation",
-          "values": [{ "name": "true" }, { "name": "false" }]
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
         },
         {
           "name": "state",
           "description": "State of component",
-          "values": [{ "name": "on" }, { "name": "off" }]
+          "values": [{ "state": "on" }, { "state": "off" }]
         }
       ]
     },
@@ -135,22 +132,22 @@
         {
           "name": "port",
           "description": "Port number to which LED is connected on board",
-          "values": [{ "name": "1" }]
+          "values": [{ "port": "1" }]
         },
         {
           "name": "board-name",
           "description": "Same as connected board",
-          "values": [{ "name": "veda1" }]
+          "values": [{ "board-name": "veda1" }]
         },
         {
           "name": "ccs",
           "description": "Visibility of Control Config Simulation",
-          "values": [{ "name": "true" }, { "name": "false" }]
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
         },
         {
           "name": "state",
           "description": "State of component",
-          "values": [{ "name": "on" }, { "name": "off" }]
+          "values": [{ "state": "on" }, { "state": "off" }]
         }
       ]
     },
@@ -167,22 +164,22 @@
         {
           "name": "port",
           "description": "Port number to which LED is connected on board",
-          "values": [{ "name": "1" }]
+          "values": [{ "port": "1" }]
         },
         {
           "name": "board-name",
           "description": "Same as connected board",
-          "values": [{ "name": "veda1" }]
+          "values": [{ "board-name": "veda1" }]
         },
         {
           "name": "ccs",
           "description": "Visibility of Control Config Simulation",
-          "values": [{ "name": "true" }, { "name": "false" }]
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
         },
         {
           "name": "state",
           "description": "State of component",
-          "values": [{ "name": "on" }, { "name": "off" }]
+          "values": [{ "state": "on" }, { "state": "off" }]
         }
       ]
     },
@@ -199,22 +196,22 @@
         {
           "name": "port",
           "description": "Port number to which LED is connected on board",
-          "values": [{ "name": "1" }]
+          "values": [{ "port": "1" }]
         },
         {
           "name": "board-name",
           "description": "Same as connected board",
-          "values": [{ "name": "veda1" }]
+          "values": [{ "board-name": "veda1" }]
         },
         {
           "name": "ccs",
           "description": "Visibility of Control Config Simulation",
-          "values": [{ "name": "true" }, { "name": "false" }]
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
         },
         {
           "name": "state",
           "description": "State of component",
-          "values": [{ "name": "on" }, { "name": "off" }]
+          "values": [{ "state": "on" }, { "state": "off" }]
         }
       ]
     },
@@ -231,22 +228,22 @@
         {
           "name": "port",
           "description": "Port number to which LED is connected on board",
-          "values": [{ "name": "1" }]
+          "values": [{ "port": "1" }]
         },
         {
           "name": "board-name",
           "description": "Same as connected board",
-          "values": [{ "name": "veda1" }]
+          "values": [{ "board-name": "veda1" }]
         },
         {
           "name": "ccs",
           "description": "Visibility of Control Config Simulation",
-          "values": [{ "name": "true" }, { "name": "false" }]
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
         },
         {
           "name": "state",
           "description": "State of component",
-          "values": [{ "name": "on" }, { "name": "off" }]
+          "values": [{ "state": "on" }, { "state": "off" }]
         }
       ]
     },
@@ -263,22 +260,22 @@
         {
           "name": "port",
           "description": "Port number to which LED is connected on board",
-          "values": [{ "name": "1" }]
+          "values": [{ "port": "1" }]
         },
         {
           "name": "board-name",
           "description": "Same as connected board",
-          "values": [{ "name": "veda1" }]
+          "values": [{ "board-name": "veda1" }]
         },
         {
           "name": "ccs",
           "description": "Visibility of Control Config Simulation",
-          "values": [{ "name": "true" }, { "name": "false" }]
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
         },
         {
           "name": "state",
           "description": "State of component",
-          "values": [{ "name": "on" }, { "name": "off" }]
+          "values": [{ "state": "on" }, { "state": "off" }]
         }
       ]
     },
@@ -295,22 +292,22 @@
         {
           "name": "port",
           "description": "Port number to which LED is connected on board",
-          "values": [{ "name": "1" }]
+          "values": [{ "port": "1" }]
         },
         {
           "name": "board-name",
           "description": "Same as connected board",
-          "values": [{ "name": "veda1" }]
+          "values": [{ "board-name": "veda1" }]
         },
         {
           "name": "ccs",
           "description": "Visibility of Control Config Simulation",
-          "values": [{ "name": "true" }, { "name": "false" }]
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
         },
         {
           "name": "state",
           "description": "State of component",
-          "values": [{ "name": "on" }, { "name": "off" }]
+          "values": [{ "state": "on" }, { "state": "off" }]
         }
       ]
     },
@@ -327,22 +324,22 @@
         {
           "name": "port",
           "description": "Port number to which LED is connected on board",
-          "values": [{ "name": "1" }]
+          "values": [{ "port": "1" }]
         },
         {
           "name": "board-name",
           "description": "Same as connected board",
-          "values": [{ "name": "veda1" }]
+          "values": [{ "board-name": "veda1" }]
         },
         {
           "name": "ccs",
           "description": "Visibility of Control Config Simulation",
-          "values": [{ "ccnames": "true" }, { "name": "false" }]
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
         },
         {
           "name": "state",
           "description": "State of component",
-          "values": [{ "name": "on" }, { "name": "off" }]
+          "values": [{ "state": "on" }, { "state": "off" }]
         }
       ]
     },
@@ -359,22 +356,22 @@
         {
           "name": "port",
           "description": "Port number to which LED is connected on board",
-          "values": [{ "name": "1" }]
+          "values": [{ "port": "1" }]
         },
         {
           "name": "board-name",
           "description": "Same as connected board",
-          "values": [{ "name": "veda1" }]
+          "values": [{ "board-name": "veda1" }]
         },
         {
           "name": "ccs",
           "description": "Visibility of Control Config Simulation",
-          "values": [{ "name": "true" }, { "name": "false" }]
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
         },
         {
           "name": "state",
           "description": "State of component",
-          "values": [{ "name": "on" }, { "name": "off" }]
+          "values": [{ "state": "on" }, { "state": "off" }]
         }
       ]
     },
@@ -391,22 +388,22 @@
         {
           "name": "port",
           "description": "Port number to which LED is connected on board",
-          "values": [{ "name": "1" }]
+          "values": [{ "port": "1" }]
         },
         {
           "name": "board-name",
           "description": "Same as connected board",
-          "values": [{ "name": "veda1" }]
+          "values": [{ "board-name": "veda1" }]
         },
         {
           "name": "ccs",
           "description": "Visibility of Control Config Simulation",
-          "values": [{ "name": "true" }, { "name": "false" }]
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
         },
         {
           "name": "state",
           "description": "State of component",
-          "values": [{ "name": "on" }, { "name": "off" }]
+          "values": [{ "state": "on" }, { "state": "off" }]
         }
       ]
     },
@@ -423,22 +420,22 @@
         {
           "name": "port",
           "description": "Port number to which LED is connected on board",
-          "values": [{ "name": "1" }]
+          "values": [{ "port": "1" }]
         },
         {
           "name": "board-name",
           "description": "Same as connected board",
-          "values": [{ "name": "veda1" }]
+          "values": [{ "board-name": "veda1" }]
         },
         {
           "name": "ccs",
           "description": "Visibility of Control Config Simulation",
-          "values": [{ "name": "true" }, { "name": "false" }]
+          "values": [{ "ccs": "true" }, { "ccs": "false" }]
         },
         {
           "name": "state",
           "description": "State of component",
-          "values": [{ "name": "on" }, { "name": "off" }]
+          "values": [{ "state": "on" }, { "state": "off" }]
         }
       ]
     }
