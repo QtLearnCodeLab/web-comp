@@ -7,7 +7,7 @@
       "references": [
         {
           "name": "Qt-WebComponents",
-          "url": "https://qtlearn.in/"
+          "url": "https://qtpi.in/"
         }
       ],
       "attributes": [
@@ -439,6 +439,37 @@
           "name": "state",
           "description": "State of component",
           "values": [{ "name": "on" }, { "name": "off" }]
+        }
+      ]
+    },
+    {
+      "name": "qt-alexa",
+      "description": "Alexa voice control web component - You should the element as: \n <qt-alexa id='alexa1' url='**your adafruit URL**'></qt-alexa>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "url",
+          "description": "adafruit URL"
+        }
+      ]
+    }, {
+      "name": "qt-gv",
+      "description": "Google voice control web component - You should the element as: \n <qt-gv id='gv1' url='**your adafruit URL**'></qt-gv>",
+      "references": [
+        {
+          "name": "Qt Web Components",
+          "url": "https://qtlearn.in/"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "url",
+          "description": "adafruit URL"
         }
       ]
     }
