@@ -6,8 +6,8 @@
       "description": "Board web component - You should use the element as: \n `<qt-board id='board1' board-name='veda1' board-type='VEDA' com-port='COM6'></qt-board>` . ",
       "references": [
         {
-          "name": "Qt-WebComponents",
-          "url": "https://qtpi.in/"
+          "name": "api-doc",
+          "url": "https://qtlearncodelab.github.io/qtpi-shared/qtwc/js/releases/latest/docs/index.html"
         }
       ],
       "attributes": [
@@ -31,8 +31,8 @@
       "description": "LED web component - You should the element as: \n <qt-led id='led1' ccs='true' board-type='veda' board-name='veda1'></qt-led>",
       "references": [
         {
-          "name": "Qt Web Components",
-          "url": "https://qtlearn.in/"
+          "name": "api-doc",
+          "url": "https://qtlearncodelab.github.io/qtpi-shared/qtwc/js/releases/latest/docs/QtLED.html"
         }
       ],
       "attributes": [
@@ -63,8 +63,8 @@
       "description": "Motor web component - You should the element as: \n <qt-motor id='motor1' ccs='true' board-type='veda' board-name='veda1'></qt-motor>",
       "references": [
         {
-          "name": "Qt Web Components",
-          "url": "https://qtlearn.in/"
+          "name": "api-doc",
+          "url": "https://qtlearncodelab.github.io/qtpi-shared/qtwc/js/releases/latest/docs/QtMotor.html"
         }
       ],
       "attributes": [
@@ -95,8 +95,8 @@
       "description": "Temperature web component - You should the element as: \n <qt-temperature id='temp1' ccs='true' board-type='veda' board-name='veda1'></qt-temperature>",
       "references": [
         {
-          "name": "Qt Web Components",
-          "url": "https://qtlearn.in/"
+          "name": "api-doc",
+          "url": "https://qtlearncodelab.github.io/qtpi-shared/qtwc/js/releases/latest/docs/QtTemperature.html"
         }
       ],
       "attributes": [
@@ -127,8 +127,8 @@
       "description": "ARGB web component - You should the element as: \n <qt-argb id='argb1' ccs='true' board-type='veda' board-name='veda1'></qt-argb>",
       "references": [
         {
-          "name": "Qt Web Components",
-          "url": "https://qtlearn.in/"
+          "name": "api-doc",
+          "url": "https://qtlearncodelab.github.io/qtpi-shared/qtwc/js/releases/latest/docs/QtARGB.html"
         }
       ],
       "attributes": [
@@ -159,8 +159,8 @@
       "description": "LDR web component - You should the element as: \n <qt-ldr id='ldr1' ccs='true' board-type='veda' board-name='veda1'></qt-ldr>",
       "references": [
         {
-          "name": "Qt Web Components",
-          "url": "https://qtlearn.in/"
+          "name": "api-doc",
+          "url": "https://qtlearncodelab.github.io/qtpi-shared/qtwc/js/releases/latest/docs/QtLDR.html"
         }
       ],
       "attributes": [
@@ -191,8 +191,8 @@
       "description": "IR sensor web component - You should the element as: \n <qt-ir id='ir1' ccs='true' board-type='veda' board-name='veda1'></qt-ir>",
       "references": [
         {
-          "name": "Qt Web Components",
-          "url": "https://qtlearn.in/"
+          "name": "api-doc",
+          "url": "https://qtlearncodelab.github.io/qtpi-shared/qtwc/js/releases/latest/docs/QtIR.html"
         }
       ],
       "attributes": [
@@ -223,8 +223,8 @@
       "description": "Gas web component - You should the element as: \n <qt-gas id='gas1' ccs='true' board-type='veda' board-name='veda1'></qt-gas>",
       "references": [
         {
-          "name": "Qt Web Components",
-          "url": "https://qtlearn.in/"
+          "name": "api-doc",
+          "url": "https://qtlearncodelab.github.io/qtpi-shared/qtwc/gas.html"
         }
       ],
       "attributes": [
@@ -255,8 +255,8 @@
       "description": "Ultrasonic web component - You should the element as: \n <qt-ultrasonic id='us1' ccs='true' board-type='veda' board-name='veda1'></qt-ultrasonic>",
       "references": [
         {
-          "name": "Qt Web Components",
-          "url": "https://qtlearn.in/"
+          "name": "api-doc",
+          "url": "https://qtlearncodelab.github.io/qtpi-shared/qtwc/js/releases/latest/docs/QtUltraSonic.html"
         }
       ],
       "attributes": [
@@ -287,8 +287,8 @@
       "description": "Servo web component - You should the element as: \n <qt-servo id='servo1' ccs='true' board-type='veda' board-name='veda1'></qt-servo>",
       "references": [
         {
-          "name": "Qt Web Components",
-          "url": "https://qtlearn.in/"
+          "name": "api-doc",
+          "url": "https://qtlearncodelab.github.io/qtpi-shared/qtwc/js/releases/latest/docs/QtServo.html"
         }
       ],
       "attributes": [
@@ -319,8 +319,8 @@
       "description": "APDS web component - You should the element as: \n <qt-apds id='apds1' ccs='true' board-type='veda' board-name='veda1'></qt-apds>",
       "references": [
         {
-          "name": "Qt Web Components",
-          "url": "https://qtlearn.in/"
+          "name": "api-doc",
+          "url": "https://qtlearncodelab.github.io/qtpi-shared/qtwc/js/releases/latest/docs/QtAPDS.html"
         }
       ],
       "attributes": [
@@ -351,8 +351,8 @@
       "description": "Limit switch web component - You should the element as: \n <qt-limitswitch id='ls1' ccs='true' board-type='veda' board-name='veda1'></qt-limitswitch>",
       "references": [
         {
-          "name": "Qt Web Components",
-          "url": "https://qtlearn.in/"
+          "name": "api-doc",
+          "url": "https://qtlearncodelab.github.io/qtpi-shared/qtwc/js/releases/latest/docs/QtLimitSwitch.html"
         }
       ],
       "attributes": [
@@ -383,8 +383,8 @@
       "description": "MPU web component - You should the element as: \n <qt-mpu id='mpu1' ccs='true' board-type='veda' board-name='veda1'></qt-mpu>",
       "references": [
         {
-          "name": "Qt Web Components",
-          "url": "https://qtlearn.in/"
+          "name": "api-doc",
+          "url": "https://qtlearncodelab.github.io/qtpi-shared/qtwc/js/releases/latest/docs/QtMPU6050.html"
         }
       ],
       "attributes": [
@@ -415,8 +415,8 @@
       "description": "Buzzer web component - You should the element as: \n <qt-buzzer id='buzz1' ccs='true' board-type='veda' board-name='veda1'></qt-buzzer>",
       "references": [
         {
-          "name": "Qt Web Components",
-          "url": "https://qtlearn.in/"
+          "name": "api-doc",
+          "url": "https://qtlearncodelab.github.io/qtpi-shared/qtwc/js/releases/latest/docs/QtBuzzer.html"
         }
       ],
       "attributes": [
