@@ -457,7 +457,8 @@
           "description": "adafruit URL"
         }
       ]
-    }, {
+    },
+    {
       "name": "qt-gv",
       "description": "Google voice control web component - You should the element as: \n <qt-gv id='gv1' url='**your adafruit URL**'></qt-gv>",
       "references": [

@@ -1,4 +1,3 @@
 {
-  "template": "static",
-  "infiniteLoopProtection": true
+  "template": "static"
 }
